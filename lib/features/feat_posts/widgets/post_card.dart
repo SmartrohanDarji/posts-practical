@@ -20,8 +20,7 @@ class Postcard extends StatelessWidget {
         color: AppColors.whiteColor,
         borderRadius: BorderRadius.circular(15),
         border: Border.all(
-          color: AppColors.lightBackground2.withOpacity(0.6),
-        ),
+            color: AppColors.lightBackground2.withValues(alpha: 0.6)),
         boxShadow: [
           BoxShadow(
             color: AppColors.blackColor.withValues(alpha: 0.1),
